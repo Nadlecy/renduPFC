@@ -13,20 +13,21 @@
         # Alors
         # Assigne a validAnswer la valeur True
         # Assigne a answer le retour de l'execution de la fonction input
+"""CHOIX DE L'ORDI"""
+        # 
 """ANALYSE REPONSE"""
-        # Si answer contient  "P" ou "Pierre"
+        # Si answer est egale a "P" ou "Pierre"
             # Alors
             # Assigne a playerShot la valeur 0
-        # Sinon Si answer contient "F" ou "Feuille"
+        # Sinon Si answer est egale a "F" ou "Feuille"
             # Alors
             # Assigne a playerShot la valeur 1
-        # Sinon Si answer contient "C" ou "Ciseaux"
+        # Sinon Si answer est egale a "C" ou "Ciseaux"
             # Alors
             # Assigne a playerShot la valeur 2
         # Sinon
             # Alors
             # Affiche le message "Réponse invalide"
             # Assigne a validAnswer la valeur False
-        #
 
 #Fin
