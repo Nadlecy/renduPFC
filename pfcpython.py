@@ -44,4 +44,7 @@
         # Alors renvoyer le message "Vous avez perdu."
     # Sinon
         # Alors renvoyer le message "Vous avez Gagné!"
-#Fin
+
+# Appeler la fonction pfc()
+
+# Fin
