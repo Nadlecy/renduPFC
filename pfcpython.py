@@ -15,13 +15,18 @@
         # Assigne a answer le retour de l'execution de la fonction input
 """ANALYSE REPONSE"""
         # Si answer contient  "P" ou "Pierre"
-            # Assigne a
+            # Alors
+            # Assigne a playerShot la valeur 0
         # Sinon Si answer contient "F" ou "Feuille"
-            # 
+            # Alors
+            # Assigne a playerShot la valeur 1
         # Sinon Si answer contient "C" ou "Ciseaux"
-            #
+            # Alors
+            # Assigne a playerShot la valeur 2
         # Sinon
+            # Alors
             # Affiche le message "Réponse invalide"
             # Assigne a validAnswer la valeur False
+        #
 
 #Fin
