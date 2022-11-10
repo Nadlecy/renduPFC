@@ -4,18 +4,15 @@
 # On admet une fonction input() qui enregistre l'entree d'un joueur sous forme de str
 
 # On definit une fonction pfc qui ne prend aucun argument
-"""INITIALISATION"""
     # Assigne a hands une liste [0,1,2]
     # Assigne a comPoints la valeur 0
     # Assigne a playerPoints la valeur 0
-"""DEBUT BOUCLE"""
     # Tant que playerPoints est inferieure à 3 et comPoints est inferieure à 3
         # Alors
+        # Afficher une chaine de caracteres composee de playerPoints, " - ", puis comPoints
         # Assigne a validAnswer la valeur Vrai
-"""CHOIX DE L'ORDI"""
         # Assigne a comShot le retour de l'execution de la fonction random()
-"""ANALYSE REPONSE JOUEUR"""
-        # Assigne a answer le retour de l'execution de la fonction input
+        # Assigne a answer le retour de l'execution de la fonction input()
         # Si answer est egale a "P" ou "Pierre"
             # Alors
             # Assigne a playerShot la valeur 0
@@ -29,7 +26,6 @@
             # Alors
             # Affiche le message "Réponse invalide"
             # Assigne a validAnswer la valeur Faux
-"""COMPARAISON RESULTATS"""
         # Si validAnswer est egale a Vrai
             # Alors
             # Si comShot est egale a la valeur dans la liste hands a l'index de valeur playerShot moins un
@@ -43,6 +39,9 @@
             # Sinon
                 # Alors
                 # Afficher le message "Egalité!"
-"""SORTIE DE BOUCLE ET ANNONCE DU SCORE/VAINQUEUR"""
-    #
+    # Afficher une chaine de caracteres composee de "Score final: ", playerPoints, " - ", puis comPoints
+    # Si comPoints est strictement plus grande que playerPoints
+        # Alors renvoyer le message "Vous avez perdu."
+    # Sinon
+        # Alors renvoyer le message "Vous avez Gagné!"
 #Fin
