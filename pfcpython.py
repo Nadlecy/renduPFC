@@ -42,7 +42,7 @@ def pfc():
         else:
             # Alors
             # Affiche le message "Réponse invalide"
-            print("Réponse Invalide")
+            print("Réponse Invalide \n______________________")
             # Assigne a validAnswer la valeur Faux
             validAnswer=False
         # Si validAnswer est egale a Vrai
